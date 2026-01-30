@@ -1,7 +1,10 @@
 {
   "agents": {
     "defaults": {
-      "workspace": "/root/clawd"
+      "workspace": "/root/clawd",
+      "model": {
+        "primary": "google-gemini-cli/gemini-2.5-flash"
+      }
     }
   },
   "gateway": {
